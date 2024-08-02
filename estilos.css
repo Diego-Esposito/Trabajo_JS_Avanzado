@@ -1,0 +1,37 @@
+
+.container{
+    font-size: 18px;
+    background-color: burlywood;
+    padding: 2rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    margin-left: 100px;
+    
+
+}
+.input{
+    width: 100%;
+    
+}
+label{
+    display: block;
+    margin-top: 10px; 
+}
+.error{
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.tipo1,.tipo2{
+    display: flex;
+    margin: 10px;
+ 
+}
+.tipoContacto{
+    border: 2px solid rgb(155, 90, 5);
+    border-radius: 0.8rem;
+}
+.contacto{
+    margin: 5px;
+}

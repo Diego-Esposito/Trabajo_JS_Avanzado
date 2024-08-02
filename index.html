@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Trabajo Obligatorio JS</title>
+</head>
+<body>
+    <h1>Trabajo Obligatorio JS</h1>
+<div class="container">
+    <form action="" id="registroForm">
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" name="nombre" class="input">
+        <div id="errorNombre" class="error"></div>
+        <label for="apellido">Apellido: </label>
+        <input type="text" id="apellido" name="apellido" class="input">
+        <div id="errorApellido" class="error"></div>
+        <label for="telefono">Telefono: </label>
+        <input type="tel" id="telefono" name="telefono" class="input">
+        <div id="errorTelefono" class="error"></div>
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" class="input">
+        <div id="errorEmail" class="error"></div>
+        <div class="tipoContacto">
+            <label for="contacto" class="contacto">Tipo de Contacto: </label>
+            <div id="errorContacto" class="error"></div> 
+            
+                <div class="tipo1">
+                    <label for="soporte">Soporte</label>
+                    <input type="checkbox" id="soporte" name="contacto" value="soporte">
+                </div>
+                <div class="tipo2">
+                    <label for="ventas">Ventas</label>
+                    <input type="checkbox" id="ventas" name="contacto" value="ventas">
+                </div>
+        </div>
+        <label for="asunto">Asunto: </label>
+        <input type="text" id="asunto" name="asunto" class="input">
+        <div id="errorAsunto" class="error"></div>
+        <label for="descripcion">Descripción: </label>
+        <textarea id="descripcion" name="descripcion" rows="10" class="input"></textarea>
+        <div id="errorDescripcion" class="error"></div>
+
+        <button type="submit">Enviar</button>
+    
+    </form>
+    <div id="mensaje"></div>
+</div>
+
+    <script src="main.js"></script>
+</body>
+</html>
